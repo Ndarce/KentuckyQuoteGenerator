@@ -52,7 +52,7 @@ function getRandomQuote () {
 //function to generate Quote on page. 
 function printQuote(message) {
   var answer = getRandomQuote(); 
-  var message = `'<p class='quote'>' + ${answer.quote} + '</p>' + '<p class='source'>' + ${answer.source} + '</p>' + '<p class='year'>' + ${answer.year} + '</p>' + '<p class='citation'>' + '</p>'`;
+  var message = `"<p class='quote'>" + ${answer.quote} + "</p>" + "<p class='source'>" + ${answer.source} + "</p>" + "<p class='year'>" + ${answer.year} + "</p>" + "<p class='citation'>" + ${answer.citation}'</p>'`;
   
   document.getElementById('quote-box').innerHTML = message;
 }
