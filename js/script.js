@@ -39,7 +39,8 @@ console.log(quotes);
  * `getRandomQuote` function
 ***/
 function getRandomQuote () {
-  var quoteKentucky = (Math.random * quotes.length); // generates random quote from array via number 1-5
+  var quoteKentucky = (Math.random * quotes.length);// generates random quote from array via number 1-5
+  var quoteKentucky = Math.floor(5);
   console.log(quoteKentucky);
   console.log(quotes[quoteKentucky]);
   return quotes  [quoteKentucky]; //returns random quote via generated number
